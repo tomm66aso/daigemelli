@@ -1,37 +1,37 @@
 # Da i Gemelli · Portofino
-### Sito Premium — V3
+### Sito Premium — V4 · Ultra Premium Edition
 
-Sito statico self-contained — single HTML con immagini, font e JS embedded.
+Sito statico self-contained. Single file. Tutte le immagini, font, JS embedded.
 
-## ✨ Features di design
+## ✨ Cosa è davvero nuovo nel V4
 
-- **Loading screen** con curtain reveal (split mask)
-- **Custom cursor** dot + ring lerping + mix-blend-mode su immagini
-- **Letter-by-letter stagger** su tutti i titoli (Dai/Gemelli, intro, story, sedi, cta)
-- **Costellazione Gemini** SVG animata tra le parole (stars + linee disegnate)
-- **Marquee strip** continuo dopo l'hero
-- **Scroll progress bar** in alto
-- **Side label verticale** che tracka la sezione corrente
-- **Numerazione editoriale** sezioni (01, 02, 03, 04)
-- **Magnetic buttons** che seguono il cursore (Prenota CTA)
-- **Editorial year "1850"** come watermark gigante in story
-- **Gallery mouse-tilt** parallax su ogni immagine
-- **Image reveal con clip-path** su story
-- **"Portofino" stroke text** gigante in background della CTA
-- **Footer wordmark outlined** che si rivela in scroll
-- **Pulse animation** sui pin delle sedi (radar)
-- **Film grain animato** + vignette sull'hero
-- **Smooth anchor scroll** + Ken Burns zoom su hero
+### Hero ricostruita da zero
+- **Loader con counter 00→100** in numerali italici Fraunces, poi la tenda nera si apre verticalmente
+- **"Dai" e "Gemelli" riposizionati** — non più negli angoli estremi, ora a 15vh dal bordo, in composizione asimmetrica bilanciata
+- **Outline-to-fill animation** — le lettere appaiono prima come contorni gold sottili, poi un clip-path le riempie di crema. "Dai" si riempie dall'alto verso il basso, "Gemelli" dal basso verso l'alto. Letter-by-letter staggered.
+- **Cornice hairline** — linee oro top + bottom che attraversano lo schermo dopo le lettere
+- **Etichette che spaccano la cornice** — "N 44.30° · E 9.21°" in alto, "Ristorante & Lounge Bar" in basso
+- **Marker laterali sulle parole** — "Ottava generazione · I" e "II · Portofino" in verticale
+- **Constellation Gemini** drawn con stelle pulsanti e linee animate
+- **Mouse parallax** sulle parole dell'hero (si muovono leggermente in direzioni opposte)
 
-## 🎨 Tipografia
-- **Fraunces** (variable font, optical size 144) — display
-- **Jost** — body & nav
+### Resto del sito
+- **Quote bar editoriale** — sostituisce il marquee, citazione luxury con attribuzione
+- **Capitoli in numerali romani** (I — Manifesto, II — Esperienza, III — La Storia, IV — Le Sedi)
+- **Cursor con mix-blend-mode: difference** sulle immagini (effetto inversione)
+- **Magnetic buttons** + bottoni che si allargano in hover
+- **"1850" watermark gigante** in story
+- **"Portofino" outlined gigante** in CTA
+- **Statistiche editoriali** in numerali romani (175+ anni · VIII generazioni · II sedi)
+- **Footer wordmark** "Da i Gemelli" in stroke gigante che si rivela in scroll
+
+### Polish
+- **Fraunces variable font** con opsz 144 per il display (drammatico)
+- **Film grain animato** sopra tutto
+- **Vignette + radial gradient** sull'hero
+- **Ken Burns zoom 20s** sul background hero
+- **Image clip-path reveal** sulla story image
 
 ## 🚀 Deploy
-
-### Vercel
-1. Push repo su GitHub
-2. Importa su [vercel.com](https://vercel.com) → deploy automatico
-
-### Locale
-Apri `index.html` direttamente nel browser.
+- **Vercel**: push GitHub → import → deploy
+- **Locale**: apri `index.html` direttamente
