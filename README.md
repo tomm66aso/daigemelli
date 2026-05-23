@@ -1,36 +1,19 @@
-# Da i Gemelli · Portofino — V7
+# Da i Gemelli · Portofino — V7.1
 
 Single-file self-contained · Production ready.
 
-## V7 — Changelog
-### Posizionamento corretto
-- ✓ **Mobile asimmetrico ma più centrale**: "Da i" in alto a sinistra (top:25vh), "Gemelli" in basso a destra (bottom:25vh) — composizione originale ma più vicina al centro
-- ✓ Rimosso il centering forzato precedente
+## V7.1 — Fix
+- ✓ **Rimosso `color-scheme: dark`** — su iOS Safari forzava un dark mode automatico che alterava i colori warm white. Ora la palette navy + warm white è coerente su tutti i dispositivi.
+- ✓ **Hero mobile più centrale** — "Da i" e "Gemelli" portati a 32vh dai bordi (prima 25vh). Composizione asimmetrica preservata ma molto più vicina al centro.
 
-### Performance
-- ✓ **WebP** invece di JPEG (–25% sulle immagini, ~100KB risparmiati)
-- ✓ **CSS minificato** (–30KB)
-- ✓ `decoding="async"` su tutte le immagini
-- ✓ `loading="lazy"` sulle below-the-fold
-- ✓ File totale: **545KB** (era 720KB)
-
-### Accessibilità
-- ✓ **Skip link** "Salta al contenuto" per utenti tastiera
-- ✓ **prefers-reduced-motion** — disabilita animazioni per chi ha sensibilità al movimento
-- ✓ **Focus-visible** ring gold su tutti gli elementi interattivi (solo da tastiera)
-- ✓ **ARIA completo** su hamburger menu (aria-expanded, aria-controls, aria-hidden, role=dialog)
-- ✓ **Escape key** chiude il mobile menu
-- ✓ **Landmark `<main>`** per screen reader
-- ✓ Burger menu label dinamica (Apri/Chiudi)
-
-### SEO
-- ✓ **JSON-LD structured data** (Schema.org Restaurant) — dati strutturati per Google
-- ✓ **Open Graph** tags per condivisione social
-- ✓ **Twitter Card** tags
-- ✓ **Geo meta** (coordinate Portofino)
-- ✓ Canonical URL
-- ✓ Theme-color e color-scheme
-
-## Deploy
-- **Vercel**: push GitHub → import → deploy automatico
-- **Locale**: apri `index.html` (zero server)
+## Features complete
+- Palette navy `#0d1f3d` + warm white `#f7f4ec`
+- Nav con "Da i Gemelli" + tagline "Restaurant & Lounge di Paolo e Matteo"
+- Outline-to-fill letter animations
+- Gemini constellation animata
+- Loading counter 00→100
+- Hamburger menu mobile completo
+- Skip link, prefers-reduced-motion, focus-visible
+- JSON-LD structured data, Open Graph, Geo meta
+- WebP images
+- 545KB totale
