@@ -1,12 +1,15 @@
-# Da i Gemelli · Portofino — V9
+# da I Gemelli · Portofino — V11
 
-## V9 Changelog
-- Cursore custom rimosso (fix inversione colori su desktop)
-- Icone SVG Instagram + Facebook (touch target 44px)
-- Async Google Fonts (–2250ms render blocking)
-- Contrasto testi migliorato (WCAG)
-- Touch target mobile menu 44px
-- Heading hierarchy corretta (h1 unico, h4→h3)
-- Animazioni transform-based (composited)
-- Loader più rapido
-- Hero animation delay anticipati
+## V11 Changelog
+- ✓ Brand name: "da I Gemelli" ovunque (d minuscola, I maiuscola)
+- ✓ Font peso 400 (da 300) — testo più spesso
+- ✓ Barra coordinate spostata a 5.5rem — no overlap con PRENOTA
+- ✓ Sezione MENU con link PDF menus di entrambe le sedi
+- ✓ Sezione CANTINA VINI
+- ✓ Sezione IL LOFT
+- ✓ Sezione PRIVATE EVENTS
+- ✓ Sezione CONTATTI con Google Maps embed
+- ✓ Bottone WhatsApp fisso (floating, bottom-right)
+- ✓ Link WhatsApp in contatti e loft (+39 333 529 7759)
+- ✓ Numeri capitoli aggiornati (I→V)
+- ✓ Fix forced layout reflow nello scroll handler
