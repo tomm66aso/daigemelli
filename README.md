@@ -1,15 +1,17 @@
-# da I Gemelli · Portofino — V11
+# da I Gemelli · Portofino — V12 (Multi-pagina)
 
-## V11 Changelog
-- ✓ Brand name: "da I Gemelli" ovunque (d minuscola, I maiuscola)
-- ✓ Font peso 400 (da 300) — testo più spesso
-- ✓ Barra coordinate spostata a 5.5rem — no overlap con PRENOTA
-- ✓ Sezione MENU con link PDF menus di entrambe le sedi
-- ✓ Sezione CANTINA VINI
-- ✓ Sezione IL LOFT
-- ✓ Sezione PRIVATE EVENTS
-- ✓ Sezione CONTATTI con Google Maps embed
-- ✓ Bottone WhatsApp fisso (floating, bottom-right)
-- ✓ Link WhatsApp in contatti e loft (+39 333 529 7759)
-- ✓ Numeri capitoli aggiornati (I→V)
-- ✓ Fix forced layout reflow nello scroll handler
+## Struttura
+- index.html      — Home
+- menu.html       — Il Menu (con PDF dei menu)
+- storia.html     — La Nostra Storia + Timeline + Team
+- cantina.html    — Cantina Vini
+- loft.html       — Il Loft (spazio privato)
+- eventi.html     — Private Events
+- contatti.html   — Contatti + Mappa
+- style.css       — CSS condiviso (~46KB)
+- main.js         — JS condiviso (~4KB)
+- vercel.json     — Deploy config (cleanUrls)
+
+## Deploy
+Push su GitHub → Vercel si occupa di tutto.
+URLs pulite: /menu, /storia, /cantina ecc.
